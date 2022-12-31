@@ -43,7 +43,7 @@ const UsememoExample = () => {
 
 function getSqrt(n) {
   console.log("expensive function called");
-  for (let i = 0; i < 1000; i++) {
+  for (let i = 0; i < 10000; i++) {
     console.log(i);
   }
   return Math.sqrt(n);
